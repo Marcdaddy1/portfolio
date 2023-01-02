@@ -6,7 +6,7 @@
 
 # Description
 
-To  build a portfolio page, which you can add to as the course progresses. A portfolio of work can showcase my skills and talents to employers looking to fill a part-time or full-time position, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+To  build a portfolio page, which I can add to as the course progresses. A portfolio of work can showcase my skills and talents to employers looking to fill a part-time or full-time position, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
 # User Story
 AS student I want a portfolio of work can showcase my skills and talents to employers looking to fill a part-time or full-time position
