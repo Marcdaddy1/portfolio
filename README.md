@@ -30,4 +30,4 @@ Image alt attributes: https://www.w3schools.com/tags/att_img_alt.asp
 
 # Mock-up
 
-image.png
+![image](https://user-images.githubusercontent.com/88402273/210285610-032709cf-f379-4e0b-a636-e4a6ede81139.png)
