@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Web Developer</title>
-  <link rel="stylesheet" href="/Assets/style.css">
+  <link rel="stylesheet" href="./Assets/style.css">
 </head>
 
 <body>
@@ -14,63 +14,73 @@
   <header>
     <div class="header-box">
       <h1>Marcus Aragbaye</h1>
-      <nav id="nav-item">        
-        <div>About Me</div>
-        <div>Work</div>
-        <div>Contact Me</div>
-        <div>Resume</div>   
+      <nav id="nav-item"> 
+        <ul>
+          <li><a href="#about"></a>About Me</li>
+          <li><a href="#work"></a>Work</li>
+          <li><a href="#contact"></a>Contact Me</li>
+          <li><a href="#resume"></a>Resume</li>
+        </ul>       
+        
       </nav>
     </div>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
-    <div>      
+    <div id="web-developer">      
       <h2>Web Developer</h2>      
     </div>
   </section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <div class="page-section" id="about">
-      <aside class="about-box">
-      <h2>About Me</h2>
-      </aside>
-    <div class="about-paragraph">
-      <p>An I.T Professional, adept at working in fast paced environments, with excellent organisational skill, proactive and comfortable working with internal and external stakeholders, building strong links across various departments and organisations. Confident and flexible approach to work with demonstrated ability to plan and prioritise.</p>
-    </div>
+  <!-- <main class="page-wrapper">
+    <main>
+    <about me-->
+    <div class="about-me" id="paragraph">
+      <section>
+          <h2>About Me</h2>
+      </section>
+      <section id="paragraph">
+          <p>I.T Professional, adept at working in fast paced environments, with excellent organisational skill, proactive and comfortable working with internal and external stakeholders, building strong links across various departments and organisations. Confident and flexible approach to work with demonstrated ability to plan and prioritise
+          <br>
+          <br>
+          I.T Professional, adept at working in fast paced environments, with excellent organisational skill, proactive and comfortable working with internal and external stakeholders, building strong links across various departments and organisations. Confident and flexible approach to work with demonstrated ability to plan and prioritise</p>
+      </section>
   </div>
-
-    <!-- portfolio container -->
-    <div class="portfolio" id="work">
-      <aside>
-      <h2>Work</h2>
-      </aside>
-      <figure>
-        <div class="surf-report portfolio">        
-      </div>
-      <div class="led-wall portfolio">        
-      </div>
-        <div class="calculator portfolio">        
-      </div>
-      <div class="pastel-puzzles portfolio">        
-      </div>
-        <div class="run-buddy portfolio">
-        <!-- <img src="../starter/images/02-run-buddy.jpg" alt=""> -->
-      </div>
-      </figure>     
-    </div>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
+  <!-- image container-->
+  <div class="image-container">
+      <section class="work">
+          <h2>Work</h2>
+      </section>            
+      <section class="image-section">
+          <figure class="surf-report">
+            <div id="image-text">Surf Report</div></figure>
+          <figure class="led-wall">
+            <div id="image-text">Led Wall</div>
+          </figure>
+          <figure class="calculator">
+            <div id="image-text">Calculator</div>
+          </figure>
+          <figure class="pastel-puzzles">
+            <div id="image-text">Pastel Puzzles</div>
+          </figure>
+          <figure class="run-buddy">
+            <div id="image-text">Run Buddy</div>
+          </figure>        
+      </section>
+  </div>
+</main>
   <footer class="footer">
-    <p><u>www.marcdaddy.com</u></p>
-    <p><u>abbey.marcus@gmail.com</u></p>
-    <p><u>Github</u></p>
-    <p><u>twitter</u></p>
+    <div class="contact">
+      <h2>Contact Me</h2>
+  </div>
+  <nav id="footer-item"> 
+  <ul>
+    <li><a href="#"></a>www.marcdaddy.com</li>
+    <li><a href="#"></a>admin@marcdaddy.com</li>
+    <li><a href="#"></a>Github</li>
+    <li><a href="#"></a>Twitter</li>
+  </ul>       
   </footer>
 </body>
 </html>
